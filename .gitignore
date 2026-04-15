@@ -1,0 +1,14 @@
+# Documentación generada
+doc/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# JMeter results
+*.jtl
