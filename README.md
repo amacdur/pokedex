@@ -12,23 +12,6 @@ Aplicación web PHP que consume la API REST publica [pokeapi](https://pokeapi.co
 - **Navegación** entre pokemon anterior/siguiente desde la ficha
 - **Diseño responsive** con temática retro-gaming
 
-## Requisitos
-
-- PHP 8.0 o superior
-- Extensión cURL habilitada
-- Servidor web (Apache con XAMPP/WAMP)
-
-## Instalación
-
-```bash
-# Clonar en el directorio del servidor web
-cd C:\xampp\htdocs\
-git clone https://github.com/amacdur/pokedex-app.git
-
-# Acceder desde el navegador
-# http://localhost/pokedex-app/
-```
-
 ## API Utilizada
 
 **pokeapi v2** — https://pokeapi.co
@@ -53,13 +36,6 @@ pokedex-app/
 │   └── pokedex-test.jmx   # Plan de pruebas JMeter
 └── README.md
 ```
-
-## Documentación PHPDoc
-
-```bash
-php phpDocumentor.phar -d ./pokedex-app -t ./doc
-```
-
 ## Pruebas JMeter
 
 Configuración Concurrency Thread Group:
